@@ -6,9 +6,6 @@
 .page{
     background-color: #FFFFFF;
 }
-.nav{
-    display: flex;
-}
 .text-logo{
     font-family: "Potta One", system-ui;
     font-weight: 400;
@@ -16,6 +13,10 @@
     color: #565759;
     margin-top: 25px;
     margin-right: 257px;
+    display: inline-block;
+}
+.nav-list{
+    display: inline-block;
 }
 .items{
     display: inline-block;
@@ -31,7 +32,7 @@
     text-decoration: none;
 }
 .items-list{
-    display: block;
+    display: inline-block;
     margin: 41px 37px 0 196px;
 }
 .items-2{
@@ -43,14 +44,17 @@
     margin-left: 38px;
 }
 .offer{
-    display: flex;
     align-items: center;
 }
 .offer-img{
     margin-top: 130px;
+    display: inline-block;
 }
 .offer-text{
     margin-left: 110px;
+    display: inline-block;
+    vertical-align: top;
+   
 }
 .offer-title{
     font-family: "Federo", sans-serif;
@@ -58,6 +62,7 @@
     font-size: 50px;
     color: #3A3A3A;
     margin-bottom: 25px;
+    margin-top: 300px;
 }
 .offer-button{
     font-family: "Open Sans", sans-serif;
@@ -78,10 +83,6 @@
 }
 .best-cards{
     padding: 41px 0  148px 0;
-    display: flex;  
-    flex-wrap: wrap;  
-    gap: 20px;
-    justify-content: center;
 }
 .card{
     display: inline-block;
@@ -171,8 +172,6 @@
 }
 .deal-wrapper{
     background-color: #F6F6F6;
-    display: flex;
-    align-items: center;
     position: relative;
 }
 .deal-ellipse{
@@ -208,6 +207,7 @@
     font-size: 16px;
     color: #727272;
     margin-top: 28px;
+    max-width: 400px;
 }
 .deal-button{
     font-family: "Open Sans", sans-serif;
@@ -222,7 +222,9 @@
 .deal-img{
     display: inline-block;
     text-align: center;
-
+}
+.deal-text-section{
+    display: inline-block;
 }
 .deal-pic{
     width: 43px;
@@ -254,16 +256,15 @@
     text-align: center;
 }
 .trend-list-img{
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    gap: 140px;
     box-shadow: 0 0 2px rgb(139, 139, 139);
     padding: 20px 0 27px;
+    display: inline-block;
+    width: 100%;
 }
 .trend-img{
     text-align: center;
-    
+    display: inline-block;
+    margin-right: 155px;
 }
 .trend-name{
     font-family: "Open Sans", sans-serif;
@@ -275,17 +276,13 @@
 }
 .trend-cards{
     padding: 41px 0  148px 0;
-    display: flex;  
-    flex-wrap: wrap;  
-    gap: 20px;
-    justify-content: center;
 }
 .trend-card{
     display: inline-block;
     width: 255px;
     border: 0.2px solid rgb(216, 216, 216);
     text-align: center;
-    margin-right: 30px;
+    margin-right: 80px;
     background-color: #FFFFFF;
     box-sizing: border-box;
     margin-bottom: 50px;
@@ -295,6 +292,9 @@
     height: 150px;
     object-fit: cover; 
     padding: 50px 20tpx;
+}
+.bed-img{
+    margin: 0;
 }
 .footer{
     background-color: #bebebe;
@@ -329,6 +329,7 @@
     display: inline-block;
     text-align: left;
     margin: 0 90px 100px 80px;
+    vertical-align: top;
 }
 .footer-copyright{
     font-family: "Open Sans", sans-serif;
