@@ -1,0 +1,44 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    z-index: 1000;
+}
+.navigation{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0;
+
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    font-size: 30px;
+    list-style: none;
+}
+.block{
+    height: 900px;
+}
+.home{
+    background-color: rgb(252, 232, 202);
+}
+.about-us{
+    background-color: rgb(186, 234, 158);
+}
+.contact{
+    background-color: rgb(205, 255, 238);
+}
+.prise{
+    background-color: rgb(237, 205, 255);
+}
+.career {
+    background-color: rgb(255, 205, 219);
+}

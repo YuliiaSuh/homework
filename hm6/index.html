@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Flex</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="nav-wrapper container-header">
+          <div class="header__logo">
+            <img src="./img/Logo.svg" alt="logo" />
+          </div>
+          <div class="navigation">
+            <nav>
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="#section1" class="nav-link">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#section2" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#section3" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#section4" class="nav-link">Resources</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__buttons">
+            <a class="header__buttons_log" href="#">Log In</a>
+            <button class="header__buttons_sign">Sign Up</button>
+          </div>
+        </div>
+        <div class="header__text container-header">
+          <span class="header__text_span">header</span>
+          <h1 class="header__text_title">
+            A small business is only <br />
+            as good as its tools.
+          </h1>
+          <p class="header__text_paragraph">
+            We're different. Flex is the only saas business platform that lets
+            you run <br />
+            your business on one platform, seamlessly across all digital
+            channels.
+          </p>
+          <div class="header__button">
+            <button class="header__button_1 header__button-general">
+              Request a Demo
+            </button>
+            <button class="header__button_2 header__button-general">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="video-section">
+        <div class="video-wrapper container-header" id="section1">
+          <iframe
+            class="video-iframe"
+            width="944"
+            height="531"
+            src="https://www.youtube.com/embed/zyZAMR56mXY?si=oNJJpnd6X_yNZ7rF"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="partners-section">
+        <div class="partners-wrapper container" id="section2">
+          <p class="partners__text">
+            Trusted by the top companies in this industry
+          </p>
+          <div class="partners__logos">
+            <img
+              class="partners__img"
+              src="./img/company1.png"
+              alt="logo-partners"
+            />
+            <img
+              class="partners__img"
+              src="./img/company2.png"
+              alt="logo-partners"
+            />
+            <img
+              class="partners__img"
+              src="./img/company3.png"
+              alt="logo-partners"
+            />
+            <img
+              class="partners__img"
+              src="./img/company4.png"
+              alt="logo-partners"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="numbers-section">
+        <div class="numbers-wrapper container" id="section3">
+          <span class="numbers__span">numbers</span>
+          <h2 class="numbers__title">We believe in the power of data</h2>
+          <p class="numbers__text">
+            Flex is the only business platform that lets you run your business
+            on one <br />
+            platform, seamlessly across all digital channels.
+          </p>
+          <div class="numbers__block">
+            <div class="numbers__block_left">
+              <div class="numbers__block_text">
+                <h3 class="numbers__block_title">235.000</h3>
+                <span class="numbers__block_span">Projects completed</span>
+                <p class="numbers__block_description">
+                  No need to hire specialists for <br />each channel.
+                </p>
+              </div>
+              <div class="numbers__block_text">
+                <h3 class="numbers__block_title">$10m</h3>
+                <span class="numbers__block_span">APR</span>
+                <p class="numbers__block_description">
+                  Track how much money <br />
+                  a company just in case
+                </p>
+              </div>
+              <div class="numbers__block_text">
+                <h3 class="numbers__block_title">+50.000</h3>
+                <span class="numbers__block_span">Hours Saved Annually</span>
+                <p class="numbers__block_description">
+                  Manage many companies, even <br />
+                  with different languages.
+                </p>
+              </div>
+              <div class="numbers__block_text">
+                <h3 class="numbers__block_title">3.500</h3>
+                <span class="numbers__block_span">Unique Users</span>
+                <p class="numbers__block_description">
+                  Everyone works the way they <br />
+                  want to, on their own schedule.
+                </p>
+              </div>
+            </div>
+            <div class="numbers__block_right">
+              <img
+                class="numbers__block_img"
+                src="./img/power.png"
+                alt="img-work"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recommendation-section">
+        <div class="recommendation-wrapper container">
+          <div class="recommendation__left">
+            <video
+              class="recommendation__block_video"
+              poster="./img/video2.png"
+              controls
+            >
+              <source src="./img/Spielplatz.mp4" type="video/mp4" />
+              Ваш браузер не поддерживает видео.
+            </video>
+            <div class="recommendation__block_button" onclick="playVideo()">
+              <img src="img/Outline.svg" alt="button" />
+            </div>
+          </div>
+          <div class="recommendation__right">
+            <p class="recommendation__right_text">quotes</p>
+            <h4 class="recommendation__right_title">
+              The best solution for anyone who wants to work a flexible schedule
+              but still earn a full-time income.
+            </h4>
+            <p class="recommendation__right_name">Darren Dunlap</p>
+            <p class="recommendation__right_ceo">CEO & Founder at Flex.co</p>
+            <div class="recommendation__right_point"></div>
+            <div class="recommendation__right_point active-point"></div>
+            <div class="recommendation__right_point"></div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="contact__wrapper container">
+          <div class="contact__text">
+            <div class="contact__left">
+              <h3 class="contact__left_title">Let's stay connected</h3>
+              <p class="contact__left_description">
+                It's never been easier to get in touch with Flex. Call us, use
+                our live <br />
+                chat widget or email and we'll get back to you as soon as
+                possible!
+              </p>
+            </div>
+            <div class="contact__right">
+              <button class="contact__right_button-1">Open Positions</button>
+              <button class="contact__right_button-2">About Us</button>
+            </div>
+          </div>
+          <div class="contact__form">
+            <div class="contact__form_left">
+              <div class="contact__form_items">
+                <div class="contact__background">
+                  <img
+                    src="./img/item1.svg"
+                    alt="item"
+                    class="contact__form_img"
+                  />
+                </div>
+                <h5 class="contact__form_title">Email</h5>
+                <p class="contact__form_text">contact@flex.co</p>
+              </div>
+              <div class="contact__form_items">
+                <div class="contact__background">
+                  <img
+                    src="./img/item2.svg"
+                    alt="item"
+                    class="contact__form_img"
+                  />
+                </div>
+                <h5 class="contact__form_title">Phone</h5>
+                <p class="contact__form_text">+7-843-672-431</p>
+              </div>
+              <div class="contact__form_items">
+                <div class="contact__background">
+                  <img
+                    src="./img/item3.svg"
+                    alt="item"
+                    class="contact__form_img"
+                  />
+                </div>
+                <h5 class="contact__form_title">Office</h5>
+                <p class="contact__form_text">1686, Geraldine Lane</p>
+                <p class="contact__form_text">New York, NY 10013</p>
+              </div>
+              <div class="contact__form_items">
+                <div class="contact__background">
+                  <img
+                    src="./img/item4.svg"
+                    alt="item"
+                    class="contact__form_img"
+                  />
+                </div>
+                <h5 class="contact__form_title">Socials</h5>
+                <div class="contact__form_icons">
+                  <img src="./img/Icons/Facebook.svg" alt="icon" />
+                  <img src="./img/icon2.svg" alt="icon" />
+                  <img src="./img/icon3.svg" alt="icon" />
+                  <img src="./img/icon4.svg" alt="icon" />
+                </div>
+              </div>
+            </div>
+            <div class="contact__form_right">
+              <form
+                action="./table.xlsx"
+                name="form"
+                method="post"
+                enctype="text/plain"
+                class="contact__form_form"
+              >
+                <p class="contact__form_text-2">Email</p>
+                <input
+                  class="contact__form_input"
+                  type="email"
+                  size="40"
+                  name="email"
+                  placeholder="pat@shuffle.dev"
+                  required
+                />
+                <p class="contact__form_text-2">
+                  Message <br />
+                  <textarea
+                    name="message"
+                    class="contact__form_message"
+                    cols="40"
+                    rows="10"
+                    placeholder="Your message..."
+                    required
+                  >
+                  </textarea>
+                </p>
+                <button class="contact__button" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper container-header">
+        <img class="footer__img" src="./img/Logo.svg" alt="logo" />
+        <div class="footer__links-group">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Product</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Features</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Pricing</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Resources</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Careers</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Help</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Privacy</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="footer__line" />
+        <p class="footer__copyright">© 2021 Flex. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
