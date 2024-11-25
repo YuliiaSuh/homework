@@ -1,0 +1,16 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    gap: 20px;
+}
+@media screen and (max-width: 768px) {
+    .cards-wrapper{
+    flex-wrap: wrap;
+    }
+
+}
